@@ -1,6 +1,6 @@
 # MuchConfig
 
-TODO: Write a gem description
+Configuration for Ruby objects.
 
 ## Usage
 

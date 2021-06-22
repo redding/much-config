@@ -8,11 +8,11 @@ require "much-config/version"
 Gem::Specification.new do |gem|
   gem.name        = "much-config"
   gem.version     = MuchConfig::VERSION
-  gem.authors     = ["TODO: authors"]
-  gem.email       = ["TODO: emails"]
-  gem.summary     = "TODO: Write a gem summary"
-  gem.description = "TODO: Write a gem description"
-  gem.homepage    = "TODO: homepage"
+  gem.authors     = ["Kelly Redding", "Collin Redding"]
+  gem.email       = ["kelly@kellyredding.com", "collin.redding@me.com"]
+  gem.summary     = "Configuration for Ruby objects."
+  gem.description = "Configuration for Ruby objects."
+  gem.homepage    = "https://github.com/redding/much-config"
   gem.license     = "MIT"
 
   gem.files = `git ls-files | grep "^[^.]"`.split($INPUT_RECORD_SEPARATOR)
@@ -25,6 +25,4 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency("much-style-guide", ["~> 0.6.4"])
   gem.add_development_dependency("assert",           ["~> 2.19.6"])
-
-  # TODO: gem.add_dependency("gem-name", ["~> 0.0.0"])
 end
